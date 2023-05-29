@@ -101,7 +101,7 @@ local v2 = lib
 --game:GetService("Players").LocalPlayer.PlayerGui.Bank:Destroy()
 
 local petsbefore = lib.Save.Get().Pets
-local ids = {2637234077,3722313542}
+local ids = {2637234077}
 local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
 local mybanks = Network.Invoke("Get My Banks")
 
